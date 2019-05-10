@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/interview/create",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "面试之乎",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#303030",
+    "backgroudColor": "#fff",
+    "selectedColor": "#FF6347",
+    "list": [
+      {
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home1.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "static/images/plane.png",
+        "selectedIconPath": "static/images/plane1.png",
+        "text": "面试行程",
+        "pagePath": "pages/interview/create"
+      },
+      {
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user1.png",
+        "text": "我的",
+        "pagePath": "pages/user/user"
+      }
+    ]
+  }
+}
